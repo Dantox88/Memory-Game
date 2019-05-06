@@ -1,2 +1,2 @@
-# memory-game
-memory game
+Memory game :)
+Technologies : HTML5 ,CSS3,JAVASCRIPT

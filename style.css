@@ -1,0 +1,106 @@
+body{
+  background-color:black;
+  color:white;
+}
+
+
+
+
+#container{
+  width:100%;
+  height:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+#game-board {
+  width:630px;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+
+h1{
+  text-align:center;
+  font-size:65px;
+  letter-spacing:12px;
+}
+
+.win {
+  display:block;
+  width:500px;
+  height:500px;
+  border:1px solid white;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:80px;
+  text-align:center;
+  border-radius:15px;
+  padding:50px;
+
+}
+
+.restart{
+  display:block;
+  margin-top:150px;
+  font-size:45px;
+
+}
+
+.restart:hover{
+  color:gold;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+
+
+.tile {
+  height:125px;
+  width:125px;
+  margin:10px;
+  display:inline-block;
+  border:5px solid gold;
+  border-radius:3px;
+  background-image:url("img/javascript.png");
+  background-color:yellow;
+  transition:all 0.2s linear;
+}
+
+.tile:hover{
+  transform:scale(0.9);
+  border:5px solid red;
+  cursor:pointer;
+}
+
+/*
+.tileA {
+  height:125px;
+  width:125px;
+  margin:10px;
+  display:inline-block;
+  border:5px solid gold;
+  border-radius:3px;
+  background-image:url("img/javascript.png");
+  background-color:red;
+  transition:all 0.2s linear;
+}
+*/
+
+
+
+
+.copyrights{
+  text-align:center;
+  margin-top:50px;
+  font-size:45px;
+  letter-spacing:3px;
+}
+
+#attempts {
+  font-size:35px;
+  text-align:center;
+}
